@@ -43,3 +43,26 @@ p {
     font-size: 35px;
   }
 }
+
+.about-me {
+  margin-top: 100px;
+}
+
+.about-hero {
+  margin-top: 120px;
+  padding-right: 30px;
+}
+.about-me h1 {
+  font-size: 60px;
+  font-family: var(--header-font-family);
+}
+
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-me p {
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+}
