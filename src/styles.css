@@ -4,7 +4,7 @@
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 
 nav {
@@ -19,7 +19,20 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: blue;
+}
+
 h1 {
   font-family: var(--header-font-family);
   font-size: 90px;
